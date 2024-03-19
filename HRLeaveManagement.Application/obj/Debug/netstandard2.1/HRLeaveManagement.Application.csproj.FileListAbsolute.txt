@@ -1,0 +1,5 @@
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.csproj.AssemblyReference.cache
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.AssemblyInfoInputs.cache
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.AssemblyInfo.cs
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.csproj.CoreCompileInputs.cache
