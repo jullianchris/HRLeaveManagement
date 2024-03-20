@@ -7,3 +7,4 @@ C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagem
 C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.csproj.CoreCompileInputs.cache
 C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.dll
 C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.pdb
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.sourcelink.json

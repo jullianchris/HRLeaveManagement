@@ -3,3 +3,12 @@ C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagem
 C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.AssemblyInfoInputs.cache
 C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.AssemblyInfo.cs
 C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.csproj.CoreCompileInputs.cache
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.sourcelink.json
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\bin\Debug\netstandard2.1\HRLeaveManagement.Application.deps.json
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\bin\Debug\netstandard2.1\HRLeaveManagement.Application.dll
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\bin\Debug\netstandard2.1\HRLeaveManagement.Application.pdb
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\bin\Debug\netstandard2.1\HRLeaveManagement.Domain.dll
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\bin\Debug\netstandard2.1\HRLeaveManagement.Domain.pdb
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.csproj.CopyComplete
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.dll
+C:\Projects\Public Projects\HRLeaveMng-ASP-Core\HRLeaveManagement\HRLeaveManagement.Application\obj\Debug\netstandard2.1\HRLeaveManagement.Application.pdb

@@ -1,0 +1,44 @@
+﻿using AutoMapper;
+using HRLeaveManagement.Application.Contracts.Persistence;
+using HRLeaveManagement.Application.DTOs.LeaveAllocation.Validators;
+using HRLeaveManagement.Application.Features.LeaveAllocations.Requests.Commands;
+using HRLeaveManagement.Application.Responses;
+using HRLeaveManagement.Domain;
+using MediatR;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace HRLeaveManagement.Application.Features.LeaveAllocations.Handlers.Commands
+{
+    public class CreateLeaveAllocationCommandHandler : IRequestHandler<CreateLeaveAllocationCommand, BaseCommandResponse>
+    {
+        private readonly ILeaveAllocationRepository _leaveAllocationRepository;
+        private readonly IMapper _mapper;
+
+        public CreateLeaveAllocationCommandHandler(ILeaveAllocationRepository leaveAllocationRepository, IMapper mapper)
+        {
+            _leaveAllocationRepository = leaveAllocationRepository;
+            _mapper = mapper;
+        }
+
+        public async Task<BaseCommandResponse> Handle(CreateLeaveAllocationCommand request, CancellationToken cancellationToken)
+        {
+            var response = new BaseCommandResponse();
+            var validator = new CreateLeaveAllocationDtoValidator(_leaveAllocationRepository);
+            var validationResult = await validator.ValidateAsync(request.CreateLeaveAllocationDto, cancellationToken);
+            if (!validationResult.IsValid)
+            {
+                response.Success = false;
+                response.Message = "LeaveAllocation creation failed.";
+                response.Errors = validationResult.Errors.Select(x => x.ErrorMessage).ToList();
+                return response;
+            }
+
+            var leaveAllocation = _mapper.Map<LeaveAllocation>(request.CreateLeaveAllocationDto);
+            leaveAllocation = await _leaveAllocationRepository.Add(leaveAllocation);
+            response.Message = "LeaveAllocation creation successful.";
+            return response;
+        }
+    }
+}
